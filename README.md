@@ -50,6 +50,7 @@ PhishAI-Analyzer/
 ├── .gitignore
 └── README.md
 
+
 ⚙️ Installation & Setup
 **1️⃣ Clone Repository:**
 git clone https://github.com/dhanushgokul/PhishAI-Analyzer.git
