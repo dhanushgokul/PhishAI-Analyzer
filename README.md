@@ -28,27 +28,27 @@ Initial project structure (skeleton, venv ignored, data ignored)
 
 📂 Project Structure
 PhishAI-Analyzer/
-│
-├── src/                      # Core source code
+├── src/                     # Core source code
 │   ├── data_preprocessing.py # Cleaning and preparing email datasets
 │   ├── feature_extraction.py # Extracting features from email text/headers
 │   ├── model.py              # ML model training & inference
 │   └── utils.py              # Helper utilities
 │
-├── notebooks/                # Jupyter notebooks for experiments
+├── notebooks/               # Jupyter notebooks for experiments
 │   └── experiments.ipynb
 │
-├── data/                     # Data (excluded from Git)
-│   ├── raw/
-│   └── processed/
+├── data/                    # Email datasets (excluded from Git)
+│   ├── raw/                 # Raw unprocessed data
+│   └── processed/           # Cleaned & processed data
 │
-├── tests/                    # Unit tests
+├── tests/                   # Unit tests
 │   └── test_model.py
 │
-├── main.py                   # Entry point for running the analyzer
-├── requirements.txt          # Project dependencies
+├── main.py                  # Entry point for running the analyzer
+├── requirements.txt         # Project dependencies
 ├── .gitignore
 └── README.md
+
 
 
 ⚙️ Installation & Setup
